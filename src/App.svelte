@@ -2,6 +2,13 @@
 import HowTo from "./HowTo.svelte";
 import Timer from "./Timer.svelte"
 </script>
-<h1>Test</h1>
+
+<style>
+	h1 {
+		text-align: center;
+	}
+</style>
+
+<h1>Handwashing App</h1>
 <HowTo />
 <Timer />
